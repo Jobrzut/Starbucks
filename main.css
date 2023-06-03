@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.logo-pasek {
+    width: 51px;
+    height: 51px;
+    padding-right: 45px;
+}
+
+#PL {
+    text-transform: uppercase;
+    color: #008248;
+}
+
+.pasek {
+    background-color: white;
+    padding: 1.6em;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pierwszy-nav {
+    text-transform: uppercase;
+    display: flex;
+    margin-right: auto;
+    letter-spacing: 3px;
+}
+
+.pierwszy-nav a {
+    transition: 0.2s ease-in-out;
+}
+
+.pierwszy-nav a:hover {
+    color: #008248;
+}
+
+.drugi-nav {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    
+}
+
+#znajdz {
+    transition: 0.2s ease-in-out;
+}
+
+#znajdz:hover {
+    color: rgb(109, 109, 109);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pierwszy-nav li {
+    padding: 0.5em;
+}
+
+.drugi-nav li {
+    padding: 1em;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pytaniehero {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #008248;
+        letter-spacing: .3em;
+        font-size: 20px;
+}
+
+.lewa-kolumna {
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.lewa-kolumna h1 {
+    font-size: 5em;
+    line-height: 1.3em;
+    margin-top: .2em;
+    margin-bottom: .3em;
+}
+
+.lewa-kolumna a {
+    font-size: 20px;
+}
