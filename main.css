@@ -71,7 +71,7 @@ ul {
 }
 
 .pierwszy-nav li {
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .drugi-nav li {
@@ -111,4 +111,110 @@ section {
 
 .lewa-kolumna a {
     font-size: 20px;
+}
+
+.rodzaje {
+    margin-top: 5%;
+    background-color: #008248;
+}
+
+.rodzaje ul {
+    display: flex;
+}
+
+.rodzaje li {
+    background-color: white;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 3% auto 5em auto;
+    border-radius: 1em;
+    color: #008248;
+    width: 25%;
+    position: relative;
+}
+
+.rodzaje li img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: -9em;
+    margin-bottom: 1em;
+}
+
+.rodzaje cite {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-top: 1em;
+    color: #008248;
+    font-style: normal;
+}
+
+.rodzaje blockquote {
+    text-align: center;
+    margin-top: 0.5em;
+    color: black;
+    padding-top: 1em;
+}
+
+.kontakt {
+    padding: 0;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #008248;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #008248;
+}
+
+
+
+.container-kontaktu {
+    display: flex;
+    padding: 0em;
+    align-items: flex-start;
+
+}
+
+.container-kontaktu img {
+    margin-left: auto;
+    width: 30%;
+}
+
+.kontakt-lewy {
+    padding: 7em;
+    margin-left: 15%;
 }
