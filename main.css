@@ -104,7 +104,7 @@ section {
 
 .lewa-kolumna h1 {
     font-size: 5em;
-    line-height: 1.3em;
+    line-height: 1.1em;
     margin-top: .2em;
     margin-bottom: .3em;
 }
@@ -178,6 +178,7 @@ input, textarea {
     border: 1px solid gray;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 
 input[type="submit"] {
@@ -193,6 +194,7 @@ input[type="submit"] {
     width: unset;
     cursor: pointer;
     transition: 0.4s;
+	border: 1px solid #008248;
   }
 
 input[type="submit"]:hover {
@@ -217,4 +219,8 @@ input[type="submit"]:hover {
 .kontakt-lewy {
     padding: 7em;
     margin-left: 15%;
+}
+
+.container-paska li {
+	cursor: pointer;
 }
